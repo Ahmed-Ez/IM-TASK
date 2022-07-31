@@ -1,0 +1,77 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url("../Images/background.jpg");
+    background-repeat: space;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 8px black;
+    height: 20vh;
+}
+
+.row {
+    display: flex;
+    margin: 1rem;
+}
+
+.col {
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.im-logo {
+    display: block;
+    width: 400px;
+    height: 150px;
+    margin-top: 3rem;
+}
+
+input {
+    width: 20vw;
+    border: none;
+    border: solid 1px gray;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: red;
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: green;
+    font-size: large;
+}
+
+::placeholder {
+    color: black;
+}
